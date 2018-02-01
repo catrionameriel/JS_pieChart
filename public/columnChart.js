@@ -1,4 +1,4 @@
-var columnChart = function(cohort17, container, nameOfChart , xAxisTitles){
+var columnChart = function(info, container, nameOfChart , categories){
 
   var chart = new Highcharts.Chart({
        chart: {
@@ -8,9 +8,9 @@ var columnChart = function(cohort17, container, nameOfChart , xAxisTitles){
        title:{
          text: nameOfChart
        },
-       series: [cohort17],
+       series: [info],
        xAxis: {
-         categories: xAxisTitles
+         categories: categories
        }
   })
 }
