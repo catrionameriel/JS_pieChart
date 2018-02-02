@@ -1,8 +1,6 @@
-##Brief
+## Brief
 
 1. Modify the column chart constructor function so you can pass it information as arguments in app.js rather than setting it in the columnChart.js file.
-
-
 2. Try making a chart using the Rest Countries API data:
 
 Make an HTTP request to the API.
